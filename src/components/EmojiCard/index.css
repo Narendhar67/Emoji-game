@@ -1,0 +1,11 @@
+/* Write your code here. */
+.button {
+  background-color: #9796f0;
+  border: 1px solid #ffffff33;
+  border-radius: 12px;
+  margin: 7px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  outline: none;
+}

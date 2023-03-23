@@ -1,0 +1,46 @@
+/* Write your code here. */
+.WinOrLoseCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #9796f0;
+  border: 1px solid #ffffff33;
+  border-radius: 12px;
+  padding: 25px;
+  width: 60%;
+  margin: 20px;
+  color: #ffffff;
+}
+.WinOrLoseImage {
+  order: 2;
+  max-width: 50vw;
+}
+.PlayAgainButton {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  padding: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  outline: none;
+}
+.ScoreText {
+  font-weight: 600;
+}
+
+.Score {
+  font-size: 36px;
+  font-weight: 600;
+  color: #460bdb;
+}
+
+@media all and (max-width: 767px) {
+  .WinOrLoseCard {
+    display: flex;
+    flex-direction: column;
+  }
+  .WinOrLoseImage {
+    order: -1;
+  }
+}
