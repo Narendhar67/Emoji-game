@@ -24,7 +24,7 @@ const WinOrLoseCard = props => {
       />
       <div className="ResultText">
         <h1>{won ? 'You Won' : 'You Lose'}</h1>
-        {bestScore ? (
+        {won ? (
           <p className="ScoreText">Best Score</p>
         ) : (
           <p className="ScoreText">Score</p>
